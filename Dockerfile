@@ -9,4 +9,4 @@ RUN apt-get install nginx --assume-yes
 
 EXPOSE 80
 
-CMD ["nginx", "-g", "daemon off"]
+CMD ["nginx", "-g", "daemon off;"]
